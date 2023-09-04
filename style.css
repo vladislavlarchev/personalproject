@@ -1,0 +1,34 @@
+body {
+    background-image: url(header.img/header.svg);
+    background-size: cover;
+    color: white;
+    font-family: Graphik light;
+    font-size: 15px;
+    font-style: normal;
+    width: 1775.766px;
+    height: 930px;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+    width: 1210px;
+    height: 156px;
+}
+
+.under_nav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_pages {
+    display: inline-flex;
+    align-items: center;
+    gap: 21px;
+    width: 437px;
+    height: 48px;
+}
